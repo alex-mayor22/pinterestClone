@@ -32,6 +32,7 @@ nav > form {
 
 main {
   display: grid;
+  grid-template-columns: repeat();
 }
 
 .optionsLeft {
@@ -65,4 +66,9 @@ main {
   border-radius: 40px;
   height: 3rem;
   font-size: 18px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
