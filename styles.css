@@ -69,6 +69,18 @@ main {
 }
 
 .mainGrid {
+  padding: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.imgItem {
+  align-self: center;
+  justify-self: center;
+}
+
+.pruebaFondo {
+  display: flex;
+
+  justify-content: center;
 }
